@@ -10,7 +10,7 @@ FridayFinds is a Black Friday and Cyber Monday deal finder that runs from static
 
 - **Search and filters that work** — search across titles, stores and categories; filter by category, store, minimum discount and verdict; sort by biggest discount, biggest saving, lowest price or name.
 - **An honest verdict on every deal** — each deal carries a badge: *New low* (lowest price yet), *Strong price* (a real cut), *Routine sale* (a small cut), or *Check the fine print* (the headline saving overstates the real one — the Shark AI Ultra robot vacuum's typical price is near $449.99, not $549.99, so the real saving is about $190).
-- **Same product, other stores** — AirPods Pro 3, the Nintendo Switch 2 bundle, the Kindle Paperwhite and the MacBook Air show their price at other stores too, so a shopper can compare before buying.
+- **Same product, other stores** — 9 of the 33 deals show their price at other stores too (AirPods Pro 3, the Nintendo Switch 2 bundle, the Kindle Paperwhite, the MacBook Air, Sony XM4C, iPad 11, Fire TV Stick 4K Plus, AirTag 2 and Oura Ring 5), so a shopper can compare before buying.
 - **Every price is sourced** — the store or deals report where each price was read is shown on the deal, and the full per-deal source list is in `SOURCES.md`. The discount is always computed from the two prices, so it always adds up.
 
 ## Pages
