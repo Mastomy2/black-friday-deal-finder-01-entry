@@ -40,7 +40,7 @@ export function card(d) {
 
 export function list(deals, shown) {
   return `${stats(deals)}
-  <p>Black Friday is today, <strong>27 November 2026</strong>, and Cyber Monday follows on 30 November. Every deal below was checked today — sale price, usual price, store link and the time it was read. The badge on each deal says whether it is really a deal.</p>
+  <p>Black Friday is today, <strong>27 November 2026</strong>. Every deal below was checked today — sale price, usual price, store link and the time it was read. The badge on each deal says whether it is really a deal.</p>
   <div class="controls">
     <input type="search" id="q" placeholder="Search deals, stores, categories…" aria-label="Search deals">
     <select id="store" aria-label="Filter by store"><option value="">All stores</option></select>
@@ -114,7 +114,7 @@ export function about() {
     <ol>
       <li><strong>Found</strong> in a store's own Black Friday sale or in a deals report that names the store and the price — The Verge, 9to5Mac, MacRumors, Best Buy's own Black Friday release, and other deal trackers.</li>
       <li><strong>Checked</strong> — the sale price and the usual price were read together, and the discount on the page is computed from those two numbers, so it always adds up.</li>
-      <li><strong>Judged honestly</strong> — a badge on every deal says whether it is a new low, a strong price, a routine sale, or a headline saving that needs a second look. The Shark AI Ultra robot vacuum is the example: its list price is $549.99, but trackers put its typical selling price near $449.99, so the real saving is about $190, not $290.</li>
+      <li><strong>Judged honestly</strong> — a badge on every deal says whether it is a new low, a strong price, a routine sale, or a headline saving that needs a second look. The verdict follows one rule, applied to every deal from its own numbers: <strong>New low</strong> means the lowest price yet, with the evidence in the note; <strong>Strong price</strong> means 40% off or more, or $100 or more saved; <strong>Routine sale</strong> means a smaller cut, under 40% off and under $100 saved; <strong>Check the fine print</strong> means the headline saving overstates the real one. The Shark AI Ultra robot vacuum is the example: its list price is $549.99, but trackers put its typical selling price near $449.99, so the real saving is about $190, not $290.</li>
     </ol>
     <p><strong>What is not here:</strong> no deal is listed from a price the agent never saw, no store link goes anywhere but the store's own search for that product, and no price is invented. The full source for every deal is in SOURCES.md in the repository.</p>
     <p><strong>Prices move.</strong> Black Friday prices can change by the hour and stock runs out. Check the price at checkout before you pay — if it moved, the deal is gone.</p>
