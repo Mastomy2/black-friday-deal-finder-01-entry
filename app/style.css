@@ -210,4 +210,23 @@ footer { border-top: 1px solid var(--line); margin-top: 28px; padding: 18px 16px
   .facts { grid-template-columns: 1fr; }
   .brand { font-size: 26px; }
   .detail h1 { font-size: 23px; }
+  /* First screen on a phone: keep the header, stats and controls tight so
+     the first deal cards are visible without scrolling. */
+  .tagline { display: none; }
+  .top { padding-top: 12px; }
+  .cats { padding-bottom: 10px; gap: 6px; }
+  .cats a { padding: 4px 10px; font-size: 13px; }
+  .stats { margin-top: 12px; gap: 6px; grid-template-columns: repeat(4, 1fr); }
+  .stat { padding: 6px 6px; }
+  .stat b { font-size: 18px; }
+  .stat span { font-size: 10px; line-height: 1.2; display: block; }
+  .controls { margin: 10px 0 4px; gap: 8px; display: grid; grid-template-columns: 1fr 1fr; }
+  .controls input[type="search"] { grid-column: 1 / -1; }
+  .controls select { width: 100%; padding: 8px 6px; }
+  .deal { padding: 10px 12px; gap: 4px; }
+  .deal h3 { font-size: 16px; }
+  .now { font-size: 22px; }
+  .note { font-size: 13px; }
+  .checked { font-size: 11px; }
+  .count { margin-bottom: 8px; }
 }
