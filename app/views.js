@@ -40,7 +40,7 @@ export function card(d) {
 
 export function list(deals, shown) {
   return `${stats(deals)}
-  <p>Black Friday is today, <strong>27 November 2026</strong>. Every deal below was checked today — sale price, usual price, store link and the time it was read. The badge on each deal says whether it is really a deal.</p>
+  <p>Black Friday is today, <strong>28 November 2026</strong>. Every deal below was checked on 27–28 November — sale price, usual price, store link and the time it was read. The badge on each deal says whether it is really a deal.</p>
   <div class="controls">
     <input type="search" id="q" placeholder="Search deals, stores, categories…" aria-label="Search deals">
     <select id="store" aria-label="Filter by store"><option value="">All stores</option></select>
@@ -110,7 +110,7 @@ export function about() {
   return `<p><a class="back" href="#/">&larr; All deals</a></p>
   <section>
     <h1>How deals are checked</h1>
-    <p>FridayFinds is a deal finder, not a price scraper. Each deal on this site was found and checked by the agent that built it, on <strong>27 November 2026</strong>:</p>
+    <p>FridayFinds is a deal finder, not a price scraper. Each deal on this site was found and checked by the agent that built it, on <strong>27–28 November 2026</strong> (checked again on 28 November for the newest deals and for the prices that changed since Black Friday morning):</p>
     <ol>
       <li><strong>Found</strong> in a store's own Black Friday sale or in a deals report that names the store and the price — The Verge, 9to5Mac, MacRumors, Best Buy's own Black Friday release, and other deal trackers.</li>
       <li><strong>Checked</strong> — the sale price and the usual price were read together, and the discount on the page is computed from those two numbers, so it always adds up.</li>
