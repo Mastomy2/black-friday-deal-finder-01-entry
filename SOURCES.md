@@ -23,14 +23,14 @@ Every deal in `app/data.js` was found and checked by the agent in this session o
 |---|---|---|---|
 | Apple AirPods Pro 3 | Amazon | $149 / $249 | The Verge; 9to5Mac (all-time low per 9to5Toys) |
 | Sony WH-1000XM5 | Best Buy | $169 / $398 | Best Buy release via beebulletin |
-| Sony WH-1000XM4C | Amazon | $198 / $299.99 | The Verge |
+| Sony WH-1000XM4C | Amazon | $198 / $299.99 | The Verge; also at Walmart $198, Best Buy $199.99 (The Verge, 27 Nov 2026) |
 | Beats Solo 4 | Target | $79.99 / $199.99 | TradingView / Benzinga |
 | Beats Studio Pro | Walmart | $99 / $299 | TradingView / Benzinga |
 | MacBook Air 13" M5 16/512 | Amazon | $1,049 / $1,299 | 9to5Mac; beebulletin |
 | MacBook Air 13" M5 16/1TB | Amazon | $1,299 / $1,599 | 9to5Mac |
 | MacBook Neo 256GB | Amazon | $649 / $700 | 9to5Mac |
 | HP OmniBook 5 14" OLED | Best Buy | $449.99 / $799.99 | TradingView / Benzinga |
-| Apple iPad 11th gen 128GB | Amazon | $379 / $449 | The Verge |
+| Apple iPad 11th gen 128GB | Amazon | $379 / $449 | The Verge; also at Walmart $379, Best Buy $399 (The Verge, 27 Nov 2026) |
 | Kindle Paperwhite (2024) | Amazon | $129.99 / $199.99 | The Verge |
 | TCL 65" 4K Fire TV (2026) | Best Buy | $229.99 / $469.99 | Best Buy release via beebulletin |
 | Hisense 65" H5R1 4K Roku TV | Walmart | $228 / $398 | TradingView / Benzinga |
@@ -40,10 +40,10 @@ Every deal in `app/data.js` was found and checked by the agent in this session o
 | Sony BRAVIA 6 OLED 65" | Best Buy | $1,199.99 / $2,000 | livebriefs |
 | Ring Battery Doorbell 2K | Amazon | $39.99 / $79.99 | 20somethingfinance |
 | Amazon Echo Spot | Amazon | $44.99 / $109.99 | 20somethingfinance |
-| Fire TV Stick 4K Plus | Amazon | $29.99 / $69.99 | The Verge |
+| Fire TV Stick 4K Plus | Amazon | $29.99 / $69.99 | The Verge; also at Best Buy $29.99 (The Verge, 27 Nov 2026) |
 | Google Nest Thermostat | Amazon | $89.99 / $129.99 | 20somethingfinance |
-| Apple AirTag 2 | Amazon | $18 / $29 | The Verge; 9to5Mac (all-time low) |
-| Oura Ring 5 | Walmart | $299 / $399 | The Verge |
+| Apple AirTag 2 | Amazon | $18 / $29 | The Verge; 9to5Mac (all-time low); also at Walmart $18, Best Buy $18 (The Verge, 27 Nov 2026) |
+| Oura Ring 5 | Walmart | $299 / $399 | The Verge; also at Best Buy $299 (The Verge, 27 Nov 2026) |
 | Nintendo Switch 2 + Mario Kart World | Amazon | $499 / $549.99 | The Verge; Nintendo.com via beebulletin |
 | DualSense Wireless Controller | Amazon | $54.99 / $74.99 | comicbook |
 | Xbox Wireless Controller | Amazon | $44.99 / $64.99 | comicbook |
