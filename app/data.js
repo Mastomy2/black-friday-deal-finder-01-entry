@@ -2,12 +2,13 @@
 // agent in this session on 2026-11-27 (Black Friday): the sale price and the
 // usual price were read from the store itself or from a deals report that
 // names the store and the price. `checked` is when this agent read the price
-// (UTC); `source` names where it was read. `signal` is the honest verdict:
-// "new-low" (lowest price yet, with the evidence in signalNote), "strong"
-// (a real cut worth acting on), "routine" (a small cut on a new or
-// full-price item), or "fine-print" (the headline saving overstates the
-// real one — the note says why). `alsoAt` lists the same product at other
-// stores, so a shopper can compare before buying. Prices are US dollars;
+// (UTC); `source` names where it was read. `signal` is the honest verdict,
+// graded by one rule applied to every deal from its own numbers:
+// "new-low" (lowest price yet, with the evidence in signalNote),
+// "strong" (40% off or more, or $100 or more saved),
+// "routine" (a smaller cut: under 40% off and under $100 saved), or
+// "fine-print" (the headline saving overstates the real one — the note says
+// why). `alsoAt` lists the same product at other stores, so a shopper can
 // the discount shown on the site is always computed from price and was,
 // so the two prices and the percentage always agree.
 //
@@ -67,6 +68,10 @@ export const deals = [
     source: "The Verge best Black Friday deals, 27 Nov 2026",
     signal: "strong",
     signalNote: "The reissued XM4 at two-thirds of list — near-flagship ANC for under $200.",
+    alsoAt: [
+      { store: "Walmart", price: 198 },
+      { store: "Best Buy", price: 199.99 },
+    ],
   },
   {
     id: "beats-solo-4",
@@ -157,8 +162,12 @@ export const deals = [
     url: "https://www.amazon.com/s?k=Apple+iPad+11th+generation",
     checked: CHECKED_AT,
     source: "The Verge best Black Friday deals, 27 Nov 2026",
-    signal: "strong",
+    signal: "routine",
     signalNote: "$70 off the current base iPad with the A16 chip.",
+    alsoAt: [
+      { store: "Walmart", price: 379 },
+      { store: "Best Buy", price: 399 },
+    ],
   },
   {
     id: "kindle-paperwhite",
@@ -170,7 +179,7 @@ export const deals = [
     url: "https://www.amazon.com/s?k=Kindle+Paperwhite+2024",
     checked: CHECKED_AT,
     source: "The Verge best Black Friday deals, 27 Nov 2026",
-    signal: "strong",
+    signal: "routine",
     signalNote: "35% off the waterproof e-reader with the 7-inch screen.",
     alsoAt: [{ store: "Best Buy", price: 129.99 }],
   },
@@ -290,6 +299,7 @@ export const deals = [
     source: "The Verge best Black Friday deals, 27 Nov 2026",
     signal: "strong",
     signalNote: "57% off the 4K stick with Dolby Vision and Alexa Plus.",
+    alsoAt: [{ store: "Best Buy", price: 29.99 }],
   },
   {
     id: "nest-thermostat",
@@ -301,7 +311,7 @@ export const deals = [
     url: "https://www.amazon.com/s?k=Google+Nest+Smart+Thermostat",
     checked: CHECKED_AT,
     source: "20somethingfinance Amazon Black Friday deals, 25 Nov 2026",
-    signal: "strong",
+    signal: "routine",
     signalNote: "$40 off the Nest thermostat — a steady, real cut.",
   },
   {
@@ -316,6 +326,10 @@ export const deals = [
     source: "The Verge best Black Friday deals, 27 Nov 2026; 9to5Mac, 25 Nov 2026",
     signal: "new-low",
     signalNote: "All-time low — $18 for the second-gen tracker with the louder speaker and longer range.",
+    alsoAt: [
+      { store: "Walmart", price: 18 },
+      { store: "Best Buy", price: 18 },
+    ],
   },
   {
     id: "oura-ring-5",
@@ -329,6 +343,7 @@ export const deals = [
     source: "The Verge best Black Friday deals, 27 Nov 2026",
     signal: "strong",
     signalNote: "$100 off Oura's thinnest health-tracking ring.",
+    alsoAt: [{ store: "Best Buy", price: 299 }],
   },
   {
     id: "switch2-mario-kart",
@@ -357,7 +372,7 @@ export const deals = [
     url: "https://www.amazon.com/s?k=PlayStation+DualSense+Wireless+Controller",
     checked: CHECKED_AT,
     source: "comicbook Amazon Black Friday Week deals, 19 Nov 2026",
-    signal: "strong",
+    signal: "routine",
     signalNote: "$20 off the standard PS5 controller.",
   },
   {
@@ -370,7 +385,7 @@ export const deals = [
     url: "https://www.amazon.com/s?k=Xbox+Wireless+Controller",
     checked: CHECKED_AT,
     source: "comicbook Amazon Black Friday Week deals, 19 Nov 2026",
-    signal: "strong",
+    signal: "routine",
     signalNote: "$20 off the standard Xbox controller.",
   },
   {
@@ -448,7 +463,7 @@ export const deals = [
     url: "https://www.amazon.com/s?k=LEGO+Creator+3-in-1+T.+Rex",
     checked: CHECKED_AT,
     source: "comicbook Amazon Black Friday Week deals, 19 Nov 2026",
-    signal: "strong",
+    signal: "routine",
     signalNote: "30% off the 3-in-1 T. Rex set.",
   },
   {
@@ -461,7 +476,7 @@ export const deals = [
     url: "https://www.amazon.com/s?k=LEGO+Star+Wars+TIE+Fighter+Imperial+Hangar",
     checked: CHECKED_AT,
     source: "comicbook Amazon Black Friday Week deals, 19 Nov 2026",
-    signal: "strong",
+    signal: "routine",
     signalNote: "20% off the TIE Fighter set — a fair LEGO cut, where 20% is a good day.",
   },
 ];
