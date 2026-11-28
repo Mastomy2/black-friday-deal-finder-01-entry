@@ -1,6 +1,6 @@
 // FridayFinds — a Black Friday deal finder entry (Node 22, standard library
 // only): the site is this directory's app/ folder, plain static files a
-// browser opens at app/index.html (ES modules, CSS, no build step), its 33
+// browser opens at app/index.html (ES modules, CSS, no build step), its 49
 // deals held in its own files: nothing it runs, styles or shows loads over
 // the network, and each deal links out to its store. The program hands it
 // in: it copies app/ and screenshots/ from beside this file to /output and
